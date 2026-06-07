@@ -1,0 +1,12 @@
+/* Plumbing — Color overrides only. All structure in _shared/ */
+@import url('css/base.css');
+@import url('css/components.css');
+
+:root {
+  --clr-primary:    #0E5C8A;
+  --clr-primary-dk: #0a4568;
+  --clr-accent:     #F59E0B;
+}
+
+/* Accent buttons readable on amber */
+.btn-accent { color: var(--clr-gray-900); }
